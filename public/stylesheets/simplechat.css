@@ -1,0 +1,215 @@
+/************************************************************************
+							General
+************************************************************************/
+body{
+	width:100%;
+	height:100%;
+	background:#ffa900;
+	font-family:Lucida Grande;
+	margin:0;
+}
+
+#content{
+	width:100%;
+	height:100%;
+}
+
+.roundBorder{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+/************************************************************************
+							Form
+************************************************************************/
+
+
+#gate_content{
+	height:300px;
+	margin:105px auto;
+	text-align:center;
+	width:450px;
+}
+
+.title a{
+	color:white;
+	font-size:55px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.subtitle{
+	color:#282CD6;
+	font-size:23px;
+	margin-bottom:40px;
+	margin-top:40px;
+}
+
+
+#formPanel{
+	
+}
+
+
+.formField{
+	float:left;
+	margin-bottom:40px;
+	width:100%;
+}
+
+.formLabel{
+	color:white;
+	float:left;
+	font-weight:bold;
+	margin-right:36px;
+	text-align:right;
+	width:155px;
+}
+
+.formValue{
+	color:#282CD6;
+	float:left;
+	font-weight:bold;
+	text-align:left;
+	width:150px;
+	height:20px;
+}
+
+.formSubmit{
+	height:44px;
+	margin-top:17px;
+	width:150px;
+}
+
+.error{
+	color:red;
+	margin-bottom:15px;
+}
+
+#registerLink{
+	color:#282CD6;
+	font-size:14px;
+	margin-top:20px;
+}
+
+/************************************************************************
+							User information
+************************************************************************/
+
+
+#userMenu{
+	float:left;
+	position:relative;
+	width:380px;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+#userImage{
+	border:8px solid #FFDE5C;
+	float:left;
+	max-width:350px;
+	position:relative;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#userName{
+	color:white;
+	font-size:30px;
+	font-weight:bold;
+	margin-bottom:20px;
+	text-align:center;
+	width:100%;
+}
+
+#logoutMenu{
+	height:35px;
+	position:absolute;
+	right:50px;
+	text-align:right;
+	top:10px;
+	width:100%;
+}
+
+/************************************************************************
+							Chat messages
+************************************************************************/
+#center{
+	float:left;
+	width:785px;
+	margin-top:36px;
+}
+
+#allMessages{
+	border:3px solid white;
+	float:left;
+	height:450px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	width:690px;
+}
+
+#newMessage{
+	float:left;
+	margin-top:20px;
+}
+
+#message{
+	color:#7A7A7A;
+	font-size:15px;
+	height:30px;
+	width:568px;
+}
+
+#sendMessage{
+	height:37px;
+	width:116px;
+}
+/************************************************************************
+							All users
+************************************************************************/
+
+#allUsers{
+	float:right;
+	height:520px;
+	text-align:left;
+	width:275px;
+}
+
+
+/************************************************************************
+							Small message
+************************************************************************/
+#msg{
+	float:left;
+	margin:10px;
+	width:555px;
+	position:relative;
+	color:white;
+}
+
+#msg_img{
+	max-width:70px;
+	border:3px solid #FFDE5C;
+	float:left;
+	position:relative;
+}
+
+#msg_name{
+	float:left;
+	padding:0 0 5px;
+	width:100%;
+}
+
+#msg_text{
+	float:right;
+	padding:10px 0 5px 0;
+	text-align:left;
+	width:455px;
+}
+
+

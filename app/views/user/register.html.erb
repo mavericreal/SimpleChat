@@ -1,0 +1,49 @@
+
+<div id="gate_content">
+	<div class="title">
+		<a href="/">SIMPLECHAT</a>
+	</div>
+
+	<div class="subtitle">
+		R E G I S T E R &nbsp;&nbsp; A N D &nbsp;&nbsp; J O I N
+	</div>
+
+	<div class="error">
+	<%if flash[:error] %>
+		<%= flash[:error] %>
+	<% end %>
+	</div>
+
+	<form id="formPanel" action="/user/new/" method="POST">
+		<div class="formField">
+			<div class="formLabel">
+				Alias:
+			</div> 
+			<input class="formValue roundBorder" type="text" name="name"/>
+		</div>
+		
+		<div class="formField">
+			<div class="formLabel">
+				Image url:
+			</div> 
+			<input class="formValue roundBorder" type="text" name="imgurl"/>
+		</div>
+		
+		<div class="formField">
+			<div class="formLabel">
+				Password:
+			</div> 
+			<input class="formValue roundBorder" type="password" name="password"/>
+		</div>
+		
+		<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token%>" />	
+		<input class="formSubmit" type="submit" value="ENTER"/>
+	</form>
+	
+	
+</div>
+
+
+
+
+

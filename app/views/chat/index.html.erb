@@ -1,0 +1,27 @@
+
+
+<% if @user %>
+<div id="userMenu">
+	<div id="userName">
+		Welcome <%= @user.name %>
+	</div>
+	
+	<img id="userImage" src="<%= @user.imgurl %>" alt=""/>
+</div>
+<div id="logoutMenu">
+	<a href="/user/logout/">logout</a>
+</div>
+<% end %>
+
+<div id="center">
+	<div id="allMessages" class="roundBorder">
+		<%= render :partial => 'message/allMessages' %>
+	</div>
+	<div id="newMessage">
+		<input type="text" id="message" class="roundBorder" name="message"/>
+		<button id="sendMessage" >Send</button>
+	</div>
+</div>
+
+
+

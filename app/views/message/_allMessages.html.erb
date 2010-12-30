@@ -1,0 +1,4 @@
+
+<% @messages.each do |message| %>
+	<%= render :partial => 'message/msg', :locals => { :message => message } %>
+<% end %>
